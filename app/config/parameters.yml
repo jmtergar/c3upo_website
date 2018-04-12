@@ -1,0 +1,13 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: localhost
+    database_port: null
+    database_name: c3upo
+    database_user: root
+    database_password: sie2014
+    mailer_transport: smtp
+    mailer_host: mail.upo.es
+    mailer_user: xxx@upo.es
+    mailer_password: 
+    mailer_receiver: c3upo_admin@upo.es
+    secret: 08979694dfb8b7a303ad1540ab4ee224bb57886c
