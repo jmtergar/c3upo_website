@@ -391,10 +391,10 @@ $catalogue = new MessageCatalogue('es', array (
     'clusterHowTo.text9' => 'Para ejecutar tareas en el cluster tiene principalmente 3 métodos:',
     'clusterHowTo.text10' => '1. Usar el comando <b>srun</b>',
     'clusterHowTo.text11' => 'Con el comando <b>srun</b> se pueden ejecutar tareas en paralelo. Con este comando se puede especificar, entre otras cosas, en qué cola queremos añadir nuestro trabajo (p), cuántas veces se necesita que se ejecute la tarea (n) y en cuántos nodos (N). Además, también podemos darle un nombre al trabajo para poder localizar posteriormente con mayor facilidad (J).',
-    'clusterHowTo.run' => '> srun -n2 -N2 -p day -J=user_task_run --label hostname',
+    'clusterHowTo.run' => '> srun -n2 -N2 -p day -J user_task_run --label hostname',
     'clusterHowTo.text12' => '2. Usar el comando <b>salloc</b>',
     'clusterHowTo.text13' => 'Con el comando <b>salloc</b> se reserva un espacio en un conjunto de nodos y una vez hecha la reserva se ejecutan los comandos necesarios. Es importante tener en mente que para poder hacer un uso correcto del cluster y aprovechar los recursos los comandos hay que ejecutarlos haciendo uso de <b>srun</b>. Una vez que haya llevado a cabo las tareas hay que liberar los recursos reservados, para ello hay que ejecutar el comando <b>exit</b> o no serán liberados hasta salir del terminal. Al igual que con el comando <b>srun</b> se puede especificar en que cola queremos lanzar nuestro trabajo (p), cuántos nodos queremos reservar (N), en cuantos hilos queremos que se divida la tarea (n) y el nombre que se le quiere dar a la tarea (J). Una vez hemos reservado el espacio podemos lanzar srun con los comandos que necesitemos, sin necesidad de volver a especificar los valores.',
-    'clusterHowTo.salloc' => '> salloc -n2 -N2 -p day -J=user_task_salloc -t=10
+    'clusterHowTo.salloc' => '> salloc -n2 -N2 -p day -J user_task_salloc -t=10
 > srun --label hostname
 > exit
 ',

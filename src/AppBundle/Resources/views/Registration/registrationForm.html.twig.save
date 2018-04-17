@@ -260,13 +260,15 @@
                 'slow');
             });
         });
-
+    
         {% if error == false %}
                 $('#successSection').html('{{message}}');
                 $('#successSection').css('display', 'block');
                 setTimeout(function(){
                     $('#successSection').html('');
-                    $('#successSection').css('display', 'none');
+                    $('#
+
+successSection').css('display', 'none');
                 }, 12000);
         {% endif %}
             
