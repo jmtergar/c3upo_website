@@ -372,6 +372,7 @@ $catalogue = new MessageCatalogue('es', array (
  <li>Cuando quiera hacer calculos en el cluster ejecute sus programas a través del gestor de colas.</li>
  <li>Reservar un número de nodos ajustado a las necesidades reales.</li>
  <li>Marcar un tiempo de ejecución acorde con los cálculos que se van a llevar a cabo, así se evitarán tareas consumiendo recursos de forma infinita.</li>
+ <li style="color:#FF0000";>Cada usuario podrá utilizar un máximo de 120 cores (núcleos) simultáneamente.</li>
 </ul>
 ',
     'clusterHowTo.text7b' => '<p>Para intercambiar ficheros entre su máquina y el cluster puede usar dos métodos:</p>
