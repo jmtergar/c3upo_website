@@ -473,6 +473,21 @@ echo "Paso 1 Finalizado" >> my_program_status.txt<br>
 #Muestra la información de las tareas especificadas. <br>
 > squeue --name user_task_run,user_task_run2
 ',
+    'clusterHowTo.text19' => 'Uso de software',
+    'clusterHowTo.text20' => 'Todos los usuarios tienen acceso al software instalado en el clúster a través de la herramienta Environment Modules. Cada software se instala como módulo independiente, así como sus dependencias, y los usuarios pueden seleccionar en cada momento qué herramientas necesitan utilizar. Las dependencias se cargan automáticamente, facilitando esta tarea al usuario.',
+    'clusterHowTo.text21' => 'Comandos esenciales para el uso de Modules:',
+    'clusterHowTo.text22' => '#Mostrar todos los módulos (software) disponibles.<br>
+> module avail <br><br>
+#Cargar un módulo en concreto. <br>
+> module load <i>nombre_modulo</i> <br><br>
+#Mostrar los módulos actualmente cargados por el usuario. <br>
+> module list <br><br>
+#Salir de un módulo cargado. <br>
+> module unload <i>nombre_modulo</i>
+',
+    'clusterHowTo.text23' => 'Cuando haya disponible más de una versión del mismo software, será necesario especificar cuál se quiere cargar, salvo que haya una configurada por defecto. Siempre es de ayuda poder autocompletar gracias a la tecla de tabulación.<br><br>Todos estos comandos se pueden utilizar a través del terminal o en los scripts de Slurm para lanzar trabajos a la cola del clúster.<br><br>',
+    'clusterHowTo.text24' => 'Instalación de software:',
+    'clusterHowTo.text25' => 'Cuando un usuario necesite hacer uso de una herramienta que no esté actualmente instalada, podrá solicitar su instalación contactando con la Administración del clúster.<br><br>',
     'clusterHowTo.extraInfo' => '<b>Nota:</b> Si necesita una solución personalizada contacte con nosotros en la dirección',
   ),
 ));
