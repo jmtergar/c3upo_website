@@ -479,11 +479,11 @@ echo "Paso 1 Finalizado" >> my_program_status.txt<br>
     'clusterHowTo.text22' => '#Mostrar todos los módulos (software) disponibles.<br>
 > module avail <br><br>
 #Cargar un módulo en concreto. <br>
-> module load <i>modulo</i> <br><br>
+> module load <i>módulo</i> <br><br>
 #Mostrar los módulos actualmente cargados por el usuario. <br>
 > module list <br><br>
 #Salir de un módulo cargado. <br>
-> module unload <i>modulo</i>
+> module unload <i>módulo</i>
 ',
     'clusterHowTo.text23' => 'Cuando haya disponible más de una versión del mismo software, será necesario especificar cuál se quiere cargar, salvo que haya una configurada por defecto. Siempre es de ayuda poder autocompletar gracias a la tecla de tabulación.<br><br>Todos estos comandos se pueden utilizar a través del terminal o en los scripts de Slurm para lanzar trabajos a la cola del clúster.<br><br>',
     'clusterHowTo.text24' => 'Instalación de software:',
