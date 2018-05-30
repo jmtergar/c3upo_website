@@ -239,13 +239,13 @@ clusterInfo.extraInfo: Si tiene necesidades específicas, no dude en contactar c
 clusterInfo.extraInfoTemp: <b>Nota:</b> En breve se instalarán los programas requeridos por los usuarios del clúster.
 clusterInfo.slurm: Sistemas de colas slurm
 clusterInfo.slurm1: "El clúster cuenta con los siguientes sistemas de colas:"
-clusterInfo.slurm.day: Cola <b>diaria</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 1 día y pueden hacer uso de 120 cores.
+clusterInfo.slurm.day: Cola <b>diaria</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 1 día.
 clusterInfo.slurm.day.example: srun -n1 -N1 -p day hostname
-clusterInfo.slurm.week: Cola <b>semanal</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 7 días y pueden hacer uso de 80 cores.
+clusterInfo.slurm.week: Cola <b>semanal</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 7 días y pueden hacer uso de hasta 4 nodos.
 clusterInfo.slurm.week.example: srun -n1 -N1 -p week hostname
-clusterInfo.slurm.week2: Cola <b>quincenal</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 14 días y pueden hacer uso de 80 cores.
+clusterInfo.slurm.week2: Cola <b>quincenal</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 14 días y pueden hacer uso de hasta 2 nodos.
 clusterInfo.slurm.week2.example: srun -n1 -N1 -p week2 hostname
-clusterInfo.slurm.month: Cola <b>mensual</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 30 días y pueden hacer uso de 40 cores.
+clusterInfo.slurm.month: Cola <b>mensual</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 30 días y pueden hacer uso de un solo nodo.
 clusterInfo.slurm.month.example: srun -n1 -N1 -p month hostname
 clusterInfo.constraint: Características de los nodos
 clusterInfo.constraint1: Los nodos tienen asociadas varias características que permiten satisfacer necesidades específicas.
