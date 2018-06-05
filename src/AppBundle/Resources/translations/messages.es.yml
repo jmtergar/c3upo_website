@@ -200,10 +200,10 @@ loading: Cargando...
 
 ## Cluster information section
 welcomeClusterInfo: Bienvenido a la página informativa del clúster del C3UPO
-clusterInfo.intro: "Introducción:"
+clusterInfo.intro: "Introducción"
 clusterInfo.text1: El C3UPO dispone de un cluster de supercomputación, que ofrece servicios a diferentes grupos de investigación para facilitar cálculos científicos.
 clusterInfo.text2: El clúster ofrece herramientas específicas a los grupos de investigación. De esta forma se facilita el trabajo al investigador, ya que puede trabajar en un solo entorno, sin la necesidad de migrar datos de un lugar a otro.
-clusterInfo.hardware: "Características de hardware:"
+clusterInfo.hardware: "Características de hardware"
 clusterInfo.nodes: El clúster se compone de 31 nodos de cálculo. 
 clusterInfo.cores: Esos 31 nodos cuentan con 1032 cores de cálculo.
 clusterInfo.cores1: 13 nodos x 24 cores/nodo = 312 cores.
@@ -222,8 +222,8 @@ clusterInfo.capacityShared: Capacidad de 25 TB en un sistema de ficheros compart
 clusterInfo.queue: SLURM (Simple Linux Utility for Resource Management) como sistema de colas.
 clusterInfo.os: Sistema Operativo CentOS Linux 7.2.
 clusterInfo.power: ?? xx TFlops de potencia de cálculo
-clusterInfo.software: "Software instalado:"
-clusterInfo.programmingLanguagues: "Lenguajes de programación soportados:"
+clusterInfo.software: "Software instalado"
+clusterInfo.programmingLanguagues: "Lenguajes de programación soportados"
 clusterInfo.perl: Perl
 clusterInfo.python: Python
 clusterInfo.php: PHP
@@ -237,7 +237,7 @@ clusterInfo.parallel: Sistema de paralelización
 clusterInfo.OPENMPI: OpenMPI
 clusterInfo.extraInfo: Si tiene necesidades específicas, no dude en contactar con nosotros a través de la dirección
 clusterInfo.extraInfoTemp: <b>Nota:</b> En breve se instalarán los programas requeridos por los usuarios del clúster.
-clusterInfo.slurm: Sistemas de colas slurm
+clusterInfo.slurm: Sistema de colas
 clusterInfo.slurm1: "El clúster cuenta con el siguiente sistema de colas:"
 clusterInfo.slurm.day: Cola <b>diaria</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 1 día.
 clusterInfo.slurm.day.example: srun -n1 -N1 -p day hostname
@@ -392,4 +392,4 @@ clusterHowTo.text23: Cuando haya disponible más de una versión del mismo softw
 clusterHowTo.text24: Instalación de software:
 clusterHowTo.text25: Cuando un usuario necesite hacer uso de una herramienta que no esté actualmente instalada, podrá solicitar su instalación contactando con la Administración del clúster.<br><br>
 clusterHowTo.extraInfo: <b>Nota:</b> Si necesita una solución personalizada, contacte con nosotros en la dirección
-                     
+                     Sistema de colas slurm
