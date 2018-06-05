@@ -342,11 +342,11 @@ $catalogue = new MessageCatalogue('es', array (
     'clusterInfo.slurm1' => 'El clúster cuenta con el siguiente sistema de colas:',
     'clusterInfo.slurm.day' => 'Cola <b>diaria</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 1 día.',
     'clusterInfo.slurm.day.example' => 'srun -n1 -N1 -p day hostname',
-    'clusterInfo.slurm.week' => 'Cola <b>semanal</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 7 días y pueden hacer uso de hasta 4 nodos.',
+    'clusterInfo.slurm.week' => 'Cola <b>semanal</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 7 días. Limitado a 80 cores/usuario.',
     'clusterInfo.slurm.week.example' => 'srun -n1 -N1 -p week hostname',
-    'clusterInfo.slurm.week2' => 'Cola <b>quincenal</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 14 días y pueden hacer uso de hasta 2 nodos.',
+    'clusterInfo.slurm.week2' => 'Cola <b>quincenal</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 14 días. Limitado a 80 cores/usuario.',
     'clusterInfo.slurm.week2.example' => 'srun -n1 -N1 -p week2 hostname',
-    'clusterInfo.slurm.month' => 'Cola <b>mensual</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 30 días y pueden hacer uso de un solo nodo.',
+    'clusterInfo.slurm.month' => 'Cola <b>mensual</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 30 días. Limitado a 40 cores/usuario.',
     'clusterInfo.slurm.month.example' => 'srun -n1 -N1 -p month hostname',
     'clusterInfo.constraint' => 'Características de los nodos',
     'clusterInfo.constraint1' => 'Los nodos tienen asociadas varias características que permiten satisfacer necesidades específicas.',
@@ -372,7 +372,7 @@ $catalogue = new MessageCatalogue('es', array (
  <li>Para hacer cálculos en el clúster, hay que ejecutar el software mediante el gestor de colas.</li>
  <li>Reservar un número de nodos ajustado a las necesidades reales.</li>
  <li>Marcar un tiempo de ejecución acorde con los cálculos que se van a llevar a cabo, así se evitará que haya tareas malgastando recursos de forma innecesaria.</li>
- <li style="color:#FF0000";>Cada usuario podrá utilizar un máximo de 120 cores (núcleos) simultáneamente.</li>
+ <li style="color:#FF0000";>Cada usuario podrá utilizar un máximo de 120 cores simultáneamente.</li>
 </ul>
 ',
     'clusterHowTo.text7b' => '<p>Para intercambiar ficheros entre un equipo y el clúster se pueden usar dos métodos:</p>
