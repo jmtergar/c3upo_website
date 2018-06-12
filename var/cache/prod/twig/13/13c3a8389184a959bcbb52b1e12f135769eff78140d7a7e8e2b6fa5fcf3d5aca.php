@@ -194,7 +194,7 @@ class __TwigTemplate_02fb80af72b49fd03ea18ec1424cec428ab8fb33c941dfec5824f38449b
             <li>
                 ";
         // line 74
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterInfo.constraint.set2");
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterInfo.constraint.web");
         echo "
             </li>
             <li>
@@ -212,7 +212,7 @@ class __TwigTemplate_02fb80af72b49fd03ea18ec1424cec428ab8fb33c941dfec5824f38449b
             <li>
                 ";
         // line 83
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterInfo.constraint.web");
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterInfo.constraint.set2");
         echo "
             </li>
         </ul>
