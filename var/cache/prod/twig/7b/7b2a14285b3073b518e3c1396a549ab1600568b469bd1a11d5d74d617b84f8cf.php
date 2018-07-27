@@ -230,10 +230,20 @@ class __TwigTemplate_b00e522947922eb45ebfc5bfea0777b8b92747f18c75ebd0ce7abaa4a1f
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterHowTo.text25");
         echo "</p>
             </li>
+            <li>
+                <p>";
+        // line 89
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterHowTo.text26");
+        echo "</p>
+                <p>";
+        // line 90
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterHowTo.text27");
+        echo "</p>
+            </li>
         </ul>
         
         <p>";
-        // line 90
+        // line 94
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterHowTo.extraInfo");
         echo "  <img style=\"width:150px;\" src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/email.png"), "html", null, true);
@@ -255,7 +265,7 @@ class __TwigTemplate_b00e522947922eb45ebfc5bfea0777b8b92747f18c75ebd0ce7abaa4a1f
 
     public function getDebugInfo()
     {
-        return array (  237 => 90,  230 => 86,  226 => 85,  220 => 82,  215 => 80,  210 => 78,  204 => 75,  200 => 74,  193 => 70,  188 => 68,  181 => 64,  176 => 62,  168 => 57,  163 => 55,  158 => 53,  153 => 51,  148 => 49,  143 => 47,  138 => 45,  133 => 43,  129 => 42,  125 => 41,  120 => 39,  115 => 37,  111 => 36,  106 => 34,  101 => 32,  97 => 31,  92 => 29,  86 => 26,  82 => 25,  77 => 23,  72 => 21,  67 => 19,  62 => 17,  58 => 16,  53 => 14,  48 => 12,  43 => 10,  39 => 9,  34 => 7,  30 => 6,  24 => 3,  19 => 1,);
+        return array (  247 => 94,  240 => 90,  236 => 89,  230 => 86,  226 => 85,  220 => 82,  215 => 80,  210 => 78,  204 => 75,  200 => 74,  193 => 70,  188 => 68,  181 => 64,  176 => 62,  168 => 57,  163 => 55,  158 => 53,  153 => 51,  148 => 49,  143 => 47,  138 => 45,  133 => 43,  129 => 42,  125 => 41,  120 => 39,  115 => 37,  111 => 36,  106 => 34,  101 => 32,  97 => 31,  92 => 29,  86 => 26,  82 => 25,  77 => 23,  72 => 21,  67 => 19,  62 => 17,  58 => 16,  53 => 14,  48 => 12,  43 => 10,  39 => 9,  34 => 7,  30 => 6,  24 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
