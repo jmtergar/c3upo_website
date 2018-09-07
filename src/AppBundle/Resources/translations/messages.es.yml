@@ -399,6 +399,7 @@ clusterHowTo.text27:
                      <li>BioPerl</li>
                      <li>Cufflinks</li>
                      <li>GROMACS</li>
+                     <li>HISAT2</li>
                      <li>LAMMPS</li>
                      <li>prokka</li>
                      <li>roary</li>
@@ -411,6 +412,7 @@ clusterHowTo.text27:
                      </li>
                      <li>SRA-Toolkit</li>
                      <li>STAR</li>
+                     <li>StringTie</li>
                      <li>TopHat</li>
                      <li>Trinity</li>
                     </ul>
