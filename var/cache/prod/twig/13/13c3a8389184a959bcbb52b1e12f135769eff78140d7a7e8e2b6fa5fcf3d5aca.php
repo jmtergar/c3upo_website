@@ -288,10 +288,6 @@ class __TwigTemplate_02fb80af72b49fd03ea18ec1424cec428ab8fb33c941dfec5824f38449b
         echo " <img style=\"width:150px;\" src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/email.png"), "html", null, true);
         echo "\" /></p>
-        <p>";
-        // line 122
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("clusterInfo.extraInfoTemp");
-        echo "</p>
     </div>
 </div>
 ";
@@ -309,7 +305,7 @@ class __TwigTemplate_02fb80af72b49fd03ea18ec1424cec428ab8fb33c941dfec5824f38449b
 
     public function getDebugInfo()
     {
-        return array (  293 => 122,  287 => 121,  281 => 118,  276 => 116,  272 => 114,  268 => 112,  264 => 111,  260 => 110,  256 => 109,  251 => 107,  234 => 93,  228 => 90,  222 => 87,  215 => 83,  209 => 80,  203 => 77,  197 => 74,  191 => 71,  185 => 68,  181 => 67,  173 => 62,  168 => 60,  161 => 56,  156 => 54,  149 => 50,  144 => 48,  137 => 44,  132 => 42,  126 => 39,  122 => 38,  116 => 35,  112 => 34,  108 => 33,  103 => 32,  98 => 29,  94 => 28,  90 => 27,  85 => 25,  80 => 23,  76 => 22,  72 => 21,  66 => 19,  61 => 16,  57 => 15,  52 => 13,  48 => 12,  43 => 10,  38 => 8,  34 => 7,  30 => 6,  24 => 3,  19 => 1,);
+        return array (  287 => 121,  281 => 118,  276 => 116,  272 => 114,  268 => 112,  264 => 111,  260 => 110,  256 => 109,  251 => 107,  234 => 93,  228 => 90,  222 => 87,  215 => 83,  209 => 80,  203 => 77,  197 => 74,  191 => 71,  185 => 68,  181 => 67,  173 => 62,  168 => 60,  161 => 56,  156 => 54,  149 => 50,  144 => 48,  137 => 44,  132 => 42,  126 => 39,  122 => 38,  116 => 35,  112 => 34,  108 => 33,  103 => 32,  98 => 29,  94 => 28,  90 => 27,  85 => 25,  80 => 23,  76 => 22,  72 => 21,  66 => 19,  61 => 16,  57 => 15,  52 => 13,  48 => 12,  43 => 10,  38 => 8,  34 => 7,  30 => 6,  24 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */

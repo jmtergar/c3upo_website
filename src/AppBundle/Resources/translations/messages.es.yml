@@ -235,8 +235,7 @@ clusterInfo.chemistry: Química
 clusterInfo.bioinformatics: Bioinformática
 clusterInfo.parallel: Sistema de paralelización
 clusterInfo.OPENMPI: OpenMPI
-clusterInfo.extraInfo: Si tiene necesidades específicas, no dude en contactar con nosotros a través de la dirección
-clusterInfo.extraInfoTemp: <b>Nota:</b> En breve se instalarán los programas requeridos por los usuarios del clúster.
+clusterInfo.extraInfo: <br><b>Nota:</b> Si necesita una solución personalizada, no dude en contactar con nosotros a través de la dirección
 clusterInfo.slurm: Sistema de colas
 clusterInfo.slurm1: "El clúster cuenta con el siguiente sistema de colas:"
 clusterInfo.slurm.day: Cola <b>diaria</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 1 día.
@@ -398,6 +397,7 @@ clusterHowTo.text27:
                     <ul>
                      <li>Anaconda</li>
                      <li>BioPerl</li>
+                     <li>Cufflinks</li>
                      <li>GROMACS</li>
                      <li>LAMMPS</li>
                      <li>prokka</li>
@@ -410,7 +410,8 @@ clusterHowTo.text27:
                       </ul>
                      </li>
                      <li>SRA-Toolkit</li>
+                     <li>STAR</li>
                      <li>TopHat</li>
+                     <li>Trinity</li>
                     </ul>
-clusterHowTo.extraInfo: <b>Nota:</b> Si necesita una solución personalizada, contacte con nosotros en la dirección
-                     Sistema de colas slurm
+clusterHowTo.extraInfo: <br><b>Nota:</b> Si necesita una solución personalizada, no dude en contactar con nosotros a través de la dirección

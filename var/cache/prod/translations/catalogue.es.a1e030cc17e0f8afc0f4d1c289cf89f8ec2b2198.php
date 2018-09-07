@@ -336,8 +336,7 @@ $catalogue = new MessageCatalogue('es', array (
     'clusterInfo.bioinformatics' => 'Bioinformática',
     'clusterInfo.parallel' => 'Sistema de paralelización',
     'clusterInfo.OPENMPI' => 'OpenMPI',
-    'clusterInfo.extraInfo' => 'Si tiene necesidades específicas, no dude en contactar con nosotros a través de la dirección',
-    'clusterInfo.extraInfoTemp' => '<b>Nota:</b> En breve se instalarán los programas requeridos por los usuarios del clúster.',
+    'clusterInfo.extraInfo' => '<br><b>Nota:</b> Si necesita una solución personalizada, no dude en contactar con nosotros a través de la dirección',
     'clusterInfo.slurm' => 'Sistema de colas',
     'clusterInfo.slurm1' => 'El clúster cuenta con el siguiente sistema de colas:',
     'clusterInfo.slurm.day' => 'Cola <b>diaria</b>. Los trabajos que se ejecuten en esta cola pueden durar como máximo 1 día.',
@@ -491,8 +490,8 @@ echo "Paso 1 Finalizado" >> my_program_status.txt<br>
     'clusterHowTo.text24' => 'Instalación de software:',
     'clusterHowTo.text25' => 'Cuando un usuario necesite hacer uso de una herramienta que no esté actualmente instalada, podrá solicitar su instalación contactando con la Administración del clúster.<br><br>',
     'clusterHowTo.text26' => 'Software instalado:',
-    'clusterHowTo.text27' => '<ul> <li>Anaconda</li> <li>BioPerl</li> <li>GROMACS</li> <li>LAMMPS</li> <li>prokka</li> <li>roary</li> <li>sma3s -> incluye BLAST y BLAST+ y configura las siguientes variables de entorno: <ul> <li>$SMA3S -> ruta al fichero sma3s.pl a través del directorio /mnt/beegfs/uniprot/sma3s</li> <li>$UNIPROT -> ruta al directorio /mnt/beegfs/uniprot/uniprot</li> <li>$UNIREF -> ruta al directorio /mnt/beegfs/uniprot/uniref</li> </ul> </li> <li>SRA-Toolkit</li> <li>TopHat</li> </ul>',
-    'clusterHowTo.extraInfo' => '<b>Nota:</b> Si necesita una solución personalizada, contacte con nosotros en la dirección Sistema de colas slurm',
+    'clusterHowTo.text27' => '<ul> <li>Anaconda</li> <li>BioPerl</li> <li>Cufflinks</li> <li>GROMACS</li> <li>LAMMPS</li> <li>prokka</li> <li>roary</li> <li>sma3s -> incluye BLAST y BLAST+ y configura las siguientes variables de entorno: <ul> <li>$SMA3S -> ruta al fichero sma3s.pl a través del directorio /mnt/beegfs/uniprot/sma3s</li> <li>$UNIPROT -> ruta al directorio /mnt/beegfs/uniprot/uniprot</li> <li>$UNIREF -> ruta al directorio /mnt/beegfs/uniprot/uniref</li> </ul> </li> <li>SRA-Toolkit</li> <li>STAR</li> <li>TopHat</li> <li>Trinity</li> </ul>',
+    'clusterHowTo.extraInfo' => '<br><b>Nota:</b> Si necesita una solución personalizada, no dude en contactar con nosotros a través de la dirección',
   ),
 ));
 
