@@ -401,8 +401,10 @@ clusterHowTo.text27:
                      <li>GROMACS</li>
                      <li>HISAT2</li>
                      <li>LAMMPS</li>
+                     <li>MultiQC</li>
                      <li>prokka</li>
                      <li>roary</li>
+                     <li>RSeQC</li>
                      <li>sma3s -> incluye BLAST y BLAST+ y configura las siguientes variables de entorno:
                       <ul>
                        <li>$SMA3S -> ruta al fichero sma3s.pl a través del directorio /mnt/beegfs/uniprot/sma3s</li>
