@@ -403,6 +403,7 @@ clusterHowTo.text27:
                      <li>LAMMPS</li>
                      <li>MultiQC</li>
                      <li>prokka</li>
+                     <li>QIIME2</li>
                      <li>roary</li>
                      <li>RSeQC</li>
                      <li>sma3s -> incluye BLAST y BLAST+ y configura las siguientes variables de entorno:
