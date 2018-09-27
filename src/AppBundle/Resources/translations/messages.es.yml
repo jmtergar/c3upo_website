@@ -400,6 +400,7 @@ clusterHowTo.text27:
                      <li>Cufflinks</li>
                      <li>GROMACS</li>
                      <li>HISAT2</li>
+                     <li>HTSeq</li>
                      <li>LAMMPS</li>
                      <li>MultiQC</li>
                      <li>prokka</li>
